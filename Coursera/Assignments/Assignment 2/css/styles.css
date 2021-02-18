@@ -1,0 +1,96 @@
+body {
+  font-size: 16px;
+  color: white;
+  background-color:#a85a5a;
+  font-family: Montserrat, sans-serif;
+}
+
+p {
+  margin-top: 2%;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+  color: dimgray;
+  padding: 0 5% 5% 5%;
+}
+
+
+/** HEADER**/
+
+#header-nav {
+  background-color: lightcoral;
+}
+
+#brand-style {
+  white-space: nowrap;
+  font-size: 2.5em;
+  font-weight: 700;
+  float: left;
+}
+
+.heading {
+  margin-top: 20px;
+}
+.container .row {
+  margin: 5% 5%;
+}
+.navbar-nav{
+  position: relative;
+}
+.navbar-nav .nav-item{;
+  border: solid #F8C6C6;
+  border-width: 0 0 1px 0;
+}
+
+/** HEADER END **/
+
+/** MAIN TEXT **/
+
+.row .col-lg-4 {
+  border: solid #a85a5a;
+  border-width: 10px
+   10px;
+  background-color: wheat;
+  float: left;
+  position: relative;
+} 
+
+a:link {
+  color:#000000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkkhaki;
+  text-decoration: none;
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+#toggle-text {
+  text-align: center;
+}
+}
+
+
+@media (min-width: 767px) {
+#visible-xs {
+  display: none;
+}
+}
+
+
